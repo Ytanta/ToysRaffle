@@ -4,7 +4,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 
-public class ToyRaffle {
+
     public static void main(String[] args) {
         ToyStore store = new ToyStore();
 
@@ -30,5 +30,5 @@ public class ToyRaffle {
             System.out.println("Выигрышная игрушка: " + prizeToy.getName());
         }
     }
-}
+
 
