@@ -27,7 +27,7 @@ public class ToyStore {
     }
 
     public void organizeRaffle() {
-        prizeToys.clear();
+        
 
         for (Toy toy : toys) {
             double random = Math.random() * 100;
